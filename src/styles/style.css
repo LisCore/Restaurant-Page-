@@ -1,0 +1,48 @@
+header>h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+* {
+    background-color: antiquewhite;
+}
+
+.home,
+.menu,
+.about {
+    padding: 1rem;
+    margin: auto;
+    border: none;
+    background-color: darkslategrey;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+    width: 25%;
+}
+
+header {}
+
+.page-content {
+    text-align: center;
+    width: 60%;
+    border: 1px solid black;
+    height: 50rem;
+    margin: auto;
+    padding: 50px;
+}
+
+#content {
+    margin: 2rem;
+}
